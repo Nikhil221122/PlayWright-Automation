@@ -8,7 +8,7 @@ const config = defineConfig({
   workers: 5,
   use: {
     browserName: 'chromium',
-    headless: false,
+    headless: true,
     screenshot : 'on',
     trace :'on',
     launchOptions: {
